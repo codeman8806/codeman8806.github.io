@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "MK57Y9HCDN.codeman8806.Obscure-Holiday-Calendar",
+        "paths": [ "/obscure-holiday-calendar/*", "/*" ]
+      }
+    ]
+  }
+}

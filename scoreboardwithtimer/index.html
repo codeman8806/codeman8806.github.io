@@ -14,8 +14,6 @@
   <meta property="og:description" content="Free scoreboard and timer app for basketball, soccer, football, volleyball, hockey, and more." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://scoreboardwithtimer.com" />
-  <!-- Replace with your actual promo image if you want -->
-  <!-- <meta property="og:image" content="https://scoreboardwithtimer.com/og-image.png" /> -->
 
   <!-- Simple styling -->
   <style>
@@ -70,12 +68,46 @@
     ul {
       padding-left: 1.25rem;
     }
+
+    /* Cross-link box */
+    .other-app {
+      margin: 40px auto 0;
+      padding: 20px 24px;
+      background: #0c1124;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.3);
+      max-width: 520px;
+      text-align: center;
+    }
+    .other-app h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+      color: #93c5fd;
+    }
+    .other-app p {
+      margin: 0 0 16px;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
+    .other-app a {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #3d0070;
+      color: #fff;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .other-app a:hover {
+      opacity: 0.85;
+    }
+
     footer {
       margin-top: 2rem;
       font-size: 0.8rem;
       opacity: 0.8;
     }
-    a {
+    footer a {
       color: #93c5fd;
     }
   </style>
@@ -114,6 +146,13 @@
       </ul>
     </section>
 
+    <!-- ⭐ Cross-link to Holiday Calendar App -->
+    <div class="other-app">
+      <h3>Check Out My Other App</h3>
+      <p>Discover a fun, weird, obscure holiday every day with artwork and reminders.</p>
+      <a href="https://www.obscureholidaycalendar.com">Obscure Holiday Calendar</a>
+    </div>
+
     <footer>
       &copy; <span id="year"></span> Scoreboard With Timer · <a href="/privacy">Privacy</a>
     </footer>
@@ -122,14 +161,5 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-  <div style="margin-top:30px; text-align:center; font-size:14px; color:#666;">
-  Looking for something fun?
-  <a href="https://www.obscureholidaycalendar.com" 
-     style="color:#4A00E0; text-decoration:none; font-weight:600;">
-     Try Obscure Holiday Calendar
-  </a>
-  – a fun daily weird holiday app.
-</div>
 </body>
 </html>
-
